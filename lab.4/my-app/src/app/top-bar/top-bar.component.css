@@ -1,0 +1,38 @@
+/* top-bar.component.css */
+
+.top-bar {
+    background-color: #a09916; /* Цвет фона */
+    color: #d0da0c; /* Цвет текста */
+    padding: 10px 20px; /* Отступы внутри панели */
+    display: flex; /* Использовать flexbox */
+    justify-content: space-between; /* Распределить элементы по ширине */
+    align-items: center; /* Выравнивание элементов по центру по вертикали */
+  }
+  
+  .logo {
+    font-size: 1.5rem; /* Размер шрифта логотипа */
+    font-weight: bold; /* Полужирный шрифт */
+  }
+  
+  .menu {
+    display: flex; /* Использовать flexbox */
+  }
+  
+  .menu-item {
+    margin-left: 20px; /* Отступ между элементами меню */
+    text-decoration: none; /* Убрать подчеркивание у ссылок */
+    color: #fff; /* Цвет текста */
+    font-weight: bold; /* Полужирный шрифт */
+    transition: color 0.3s; /* Плавное изменение цвета текста при наведении */
+  }
+  
+  .menu-item:hover {
+    color: #ccc; /* Цвет текста при наведении */
+  }
+  
+
+/*
+Copyright Google LLC. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at https://angular.io/license
+*/

@@ -1,0 +1,50 @@
+.container {
+  border: 2px solid #333;
+  border-radius: 8px;
+  padding: 16px;
+  max-width: 400px;
+  margin: 1.5rem auto;
+  text-align: center;
+}
+
+.image {
+  max-width: 80%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border: 2px solid #555;
+  border-radius: 8px;
+  margin-bottom: 16px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: flex-end; /* Изменено на flex-end */
+  align-items: center;
+  margin-top: 16px;
+}
+
+.button {
+  font-size: 1rem;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 8px;
+  background-color: #333;
+  font-weight: bold;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+.button.show {
+  background-color: #ccc;
+  color: #610680;
+}
+
+.button.show:hover {
+  background-color: #999;
+}
