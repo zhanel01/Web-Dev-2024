@@ -11,7 +11,9 @@
   </h3>
   <p *ngIf="product.description">Description: {{ product.description }}</p>
   <img src="{{ product.image }}" alt="{{ product.name }} Image" width="300" height="300">
+  <div>
   <button type="button" (click)="share()">  Share  </button>
+  <div>
   
   <app-product-alerts
     [product]="product" 
@@ -20,6 +22,13 @@
   <p>
     Rate:{{ product.rating.rate | number : "1.2-4"  }}
   </p>
+  <div id = whatsapp >
+    <button type="button" (click)="shareViaWhatsapp(product)" id="b1">
+      Share via WhatsApp
+    </button>
+  <div>
+  <a [href]="product.url" target="_blank">Kaspi</a>
+ 
 </div>
 
 <!-- 

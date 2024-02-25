@@ -18,6 +18,11 @@ export class ProductListComponent {
   onNotify() {
     window.alert('You will be notified when the product goes on sale');
   }
+  shareViaWhatsapp(product: any) {
+    // Logic to share the product using Whatsapp or Telegram
+    const shareLink = `https://web.whatsapp.com/: ${product.link}`;
+    window.open(shareLink, '_blank');
+  }
 }
 /*
 Copyright Google LLC. All Rights Reserved.
