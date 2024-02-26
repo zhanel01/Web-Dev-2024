@@ -48,7 +48,7 @@ export const products = [
     price: 11000,
     image:'https://roundlab.com/cdn/shop/files/birch-moisturizing-cream-round-lab-1_900x.jpg?v=1687196692',
     rating: { rate: 4.4, count: 170 },
-    url:'https://kaspi.kz/shop/p/round-lab-toner-1025-dokdo-toner-200-ml-104770477/?c=750000000:%20undefined',
+    url:'https://kaspi.kz/shop/p/round-lab-krem-birch-juice-moisturizing-cream-dlja-litsa-80-ml-105496795/?c=750000000',
     description:
       'A gentle, well-rounded moisturizer for total moisture care and skin barrier strengthening.',
   },
@@ -58,7 +58,7 @@ export const products = [
     price: 7500,
     image:'https://roundlab.com/cdn/shop/files/80_900x.png?v=1702664340',
     rating: { rate: 4.9, count: 120 },
-    url:'https://kaspi.kz/shop/p/round-lab-toner-1025-dokdo-toner-200-ml-104770477/?c=750000000:%20undefined',
+    url:'https://kaspi.kz/shop/p/round-lab-soybean-cleansing-gidrofil-noe-maslo-200-ml-104228736/?c=750000000',
     description:
       'Crafted from a blend of natural oils such as avocado, grapeseed, evening primrose, and meadowfoam seed, this cleansing oil nurtures and cleanses, providing soothing comfort.',
   },
@@ -68,7 +68,7 @@ export const products = [
     price: 8000,
     image:'https://roundlab.com/cdn/shop/files/soybean-nourishing-cream-round-lab-1_900x.png?v=1687196719',
     rating: { rate: 4.5, count: 120 },
-    url:'https://kaspi.kz/shop/p/round-lab-toner-1025-dokdo-toner-200-ml-104770477/?c=750000000:%20undefined',
+    url:'https://kaspi.kz/shop/p/round-lab-krem-soybean-nourishing-dlja-litsa-80-ml-105264937/?c=750000000',
     description:
       'Packed with nutrients from Black Soy Bean, Ceramide and Adenosine, experience intensive moisture supply without the stickiness.',
   },
@@ -78,7 +78,7 @@ export const products = [
     price: 4500,
     image:'https://roundlab.com/cdn/shop/files/PCC4_900x.png?v=1689883728',
     rating: { rate: 4.6, count: 120 },
-    url:'https://kaspi.kz/shop/p/round-lab-toner-1025-dokdo-toner-200-ml-104770477/?c=750000000:%20undefined',
+    url:'https://kaspi.kz/shop/p/round-lab-cica-pine-penka-150-ml-112478126/?c=750000000',
     description:
       'This cleanser has a dense foam bubble texture help to cleanse the skin refreshingly and cleanly by smoothly filling the skin.',
   },
@@ -88,7 +88,7 @@ export const products = [
     price: 6990,
     image:'https://roundlab.com/cdn/shop/files/3_e61f5927-a3e2-4729-934a-4122a88ea091_900x.png?v=1691695620',
     rating: { rate: 5.0, count: 120 },
-    url:'https://kaspi.kz/shop/p/round-lab-toner-1025-dokdo-toner-200-ml-104770477/?c=750000000:%20undefined',
+    url:'https://kaspi.kz/shop/p/round-lab-gel-birch-juice-moisturizing-soothing-dlja-litsa-150-ml-105850532/?c=750000000',
     description:
       'Birch Soothing Gel is a non-sticky, water jelly formula. Great for calming skin post-sun exposure, addressing skin irritations, and providing instant hydration.',
   },
@@ -98,7 +98,7 @@ export const products = [
     price: 14000,
     image:'https://roundlab.com/cdn/shop/files/2_40ce13c0-04f0-4259-9333-1a1f4a2e62e1_900x.png?v=1706033524',
     rating: { rate: 4.5, count: 100 },
-    url:'https://kaspi.kz/shop/p/round-lab-toner-1025-dokdo-toner-200-ml-104770477/?c=750000000:%20undefined',
+    url:'https://kaspi.kz/shop/p/round-lab-1025-dokdo-toner-diski-pedy-dlja-litsa-70-sht-105263624/?c=750000000',
     description:
       'This Dokdo Toner Pad is made with concentrated minerals from Ulleungdo s deep seawater, soaked in a relaxing cotton pad. It provides deep hydration, gentle exfoliation, and soothes your stressed-out skin with Panthenol, Allantoin, and Betaine.',
   },
@@ -108,7 +108,7 @@ export const products = [
     price: 12000,
     image:'https://roundlab.com/cdn/shop/files/pine-calming-cica-ampoule-round-lab-1_900x.png?v=1687196745',
     rating: { rate: 4.0, count: 200 },
-    url:'https://kaspi.kz/shop/p/round-lab-toner-1025-dokdo-toner-200-ml-104770477/?c=750000000:%20undefined',
+    url:'https://kaspi.kz/shop/p/round-lab-syvorotka-pine-calming-cica-ampoule-dlja-litsa-30-ml-109930397/?c=750000000',
     description:
       'Quick acting remedy for hormonal breakouts, acne, rosacea. Effectively improve and fortify skin barrier.',
   },
