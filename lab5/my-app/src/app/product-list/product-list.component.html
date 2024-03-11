@@ -1,0 +1,39 @@
+<h2>Products</h2>
+
+<div *ngFor="let product of products">
+
+  <h3>
+    <a
+      [title]="product.name + ' details'"
+      [routerLink]="['/products', product.id]">
+      {{ product.name }}
+    </a>
+  </h3>
+  <p *ngIf="product.description">Description: {{ product.description }}</p>
+  <img src="{{ product.image }}" alt="{{ product.name }} Image" width="300" height="300">
+  <div>
+  <button type="button" (click)="share()">  Share  </button>
+  <div>
+  
+  <app-product-alerts
+    [product]="product" 
+    (notify)="onNotify()">
+  </app-product-alerts>
+  <p>
+    Rate:{{ product.rating.rate | number : "1.2-4"  }}
+  </p>
+  <div id = whatsapp >
+    <button type="button" (click)="shareViaWhatsapp(product)" id="b1">
+      Share via WhatsApp
+    </button>
+  <div>
+  <a [href]="product.url" target="_blank">Kaspi</a>
+ 
+</div>
+
+<!-- 
+Copyright Google LLC. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at https://angular.io/license
+-->
+

@@ -42,9 +42,10 @@ product: any;
   }
 
   handleDelete(product: Product): void {
-    const index = this.allItems.indexOf(product);
+    const index = this.allItems.findIndex((p: Product) => p.id === product.id);
     if (index !== -1) {
       this.allItems.splice(index, 1);
     }
   }
+  
 }

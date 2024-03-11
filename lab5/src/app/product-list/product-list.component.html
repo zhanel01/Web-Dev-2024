@@ -28,6 +28,7 @@
   <p>
     Rate:{{ product.rating.rate | number : "1.2-4"  }}
   </p>
+  
  
   <a [href]="product.url" target="_blank">Kaspi</a>
         <div class="buttons">
@@ -41,5 +42,16 @@
     >
       <h2>Пусто</h2>
     </div>
+
+    <div *ngFor="let product of allItems" class="product-item">
+      <img [src]="product.image" alt="{{ product.name }}">
+      <h3>{{ product.name }}</h3>
+      <p>{{ product.description }}</p>
+      <p>Likes: {{ product.likes }}</p>
+      <button (click)="updateLike(product.likes + 1, product)">Like</button>
+      <button (click)="handleDelete(product)">Delete</button>
+    </div>
+    
   </div>
+  
 </div>
