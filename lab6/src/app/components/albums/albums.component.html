@@ -1,0 +1,14 @@
+<div class="albums_items" *ngFor="let album of albums">
+  <div class="card">
+    <div class="title">
+      <p>{{ album.title | titlecase }}</p>
+    </div>
+    <div class="details">
+      <button (click)="viewDetails(album)">Мәліметтер</button>
+      <!-- <button>
+        <a routerLink="/albums/{{ album.id }}">Details</a>
+      </button> -->
+      <button class="delete" (click)="deleteAlbum(album)">Өшіру</button>
+    </div>
+  </div>
+</div>

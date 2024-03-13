@@ -1,0 +1,15 @@
+<div class="main">
+  <!-- <button routerLink="/albums" class="back">Go back</button> -->
+  <button (click)="goBack()">Артқа қайту</button>
+  <div class="info" *ngIf="album">
+    <h2>{{ album.title | titlecase }}</h2>
+    <div class="changeTitle">
+      <label for="title-input">Атауын ауытыру: </label>
+      <input type="text" id="title-input" [(ngModel)]="albumTitle" />
+      <button class="saveBtn" (click)="update()">Сақтау</button>
+    </div>
+    <div>
+      <a (click)="viewPhotos()">Суреттер</a>
+    </div>
+  </div>
+</div>
