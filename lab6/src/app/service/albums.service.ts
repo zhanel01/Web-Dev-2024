@@ -58,4 +58,10 @@ export class AlbumsService {
   // updateAlbum(album: IAlbum): Observable<IAlbum> {
   //   return this.http.put<IAlbum>(this.URL_ALBUMS + `/${album.id}`, album);
   // }
+  addAlbum(album: IAlbum): Observable<any> { 
+    return this.http.post("https://jsonplaceholder.typicode.com/albums", album); 
+  }
+  
+
+  
 }

@@ -26,7 +26,12 @@ import { NotFoundPageComponent } from './pages/not-found-page/not-found-page.com
     AlbumsPageComponent,
     NotFoundPageComponent,
   ],
-  imports: [BrowserModule, AppRoutingModule, HttpClientModule, FormsModule],
+  imports: [
+    BrowserModule,
+    AppRoutingModule,
+    HttpClientModule, 
+    FormsModule,
+  ],
   providers: [],
   bootstrap: [AppComponent],
 })
