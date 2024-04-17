@@ -21,7 +21,7 @@ class Company (models.Model):
             'name': self.name,
             'description': self.description,
             'city': self.city,
-            'address': self.adress
+            'address': self.address
 
         }
 
@@ -40,12 +40,12 @@ class Vacancy(models.Model):
         return f'{self.id}: {self.name},{self.salary}, {self.company}'
 
     def to_json_format(self):
-        return{
+        return {
             'id': self.id,
             'name': self.name,
             'description': self.description,
             'salary': self.salary,
-            'company': self.company,
+            'company_id': self.company.id,
         }
 
 
